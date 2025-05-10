@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.main {
+  background: #b3e0ff;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  margin: 20px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navLink:hover {
+  color: navy;
+  border-bottom: 2px solid navy;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.typeLocation {
+  display: flex;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.description {
+  margin: 10px 0;
+  color: #555;
+}
+
+.price {
+  font-weight: bold;
+  color: #00796b;
+}
+
+.contact {
+  color: #01579b;
+}
+
+
+.buttonAdd {
+  align-self: center;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0044cc;
   color: white;
+  cursor: pointer;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonFav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: gray;
 }
