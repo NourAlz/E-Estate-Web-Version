@@ -1,3 +1,16 @@
+# E-Estate Web Version
+
+## This project is still under development.
+
+The project aims to put my full stack development skills into test, by creating a comprehensive database, then creating my backend APIs to finally connect them to my frontend. The backend for this project and the mobile version will be uploaded once all testing cases are passed.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
