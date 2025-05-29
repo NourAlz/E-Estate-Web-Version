@@ -19,7 +19,9 @@
 }
 
 .logo {
-  width: 150px;
+  width: 250px;
+  height: 150px;
+  size: 150px;
   text-align: center;
   padding: 5px;
 }
