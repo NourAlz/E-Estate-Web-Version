@@ -1,8 +1,6 @@
 # E-Estate Web Version
 
-## This project is still under development.
-
-The project aims to put my full stack development skills into test, by creating a comprehensive database, then creating my backend APIs to finally connect them to my frontend. The backend for this project and the mobile version will be uploaded once all testing cases are passed.
+## This project aims to put my skills as a full stack developer into use. The project has a database made from scratch, along with a backend developed using dotnet framework that implements Rest APIs. The frontend uses React framework with a simple clean design that is easy to navigate through.
 
 
 
